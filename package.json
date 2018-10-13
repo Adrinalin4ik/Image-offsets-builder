@@ -1,0 +1,30 @@
+{
+  "name": "electron-quick-start",
+  "version": "1.0.0",
+  "description": "A minimal Electron application",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "rebuild": "npm rebuild --runtime=electron --target=3.0.3 --disturl=https://atom.io/download/atom-shell --abi=48"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo"
+  ],
+  "author": "GitHub",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^3.0.3",
+    "electron-rebuild": "^1.8.2"
+  },
+  "dependencies": {
+    "codemirror": "^5.40.2",
+    "electron-require": "^0.3.0",
+    "js-beautify": "^1.8.7",
+    "robotjs": "^0.5.1"
+  }
+}
